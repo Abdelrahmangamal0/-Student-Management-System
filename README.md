@@ -89,10 +89,10 @@ cd student-management-System
 
 ## 📊 Screenshots
 
-![Dashboard Screenshot](./assets/images/dashboard.png)
-![Studens Screenshot](./assets/images/students.png)
-![Teachers Screenshot](./assets/images/teachers.png)
-![Courses Screenshot](./assets/images/courses.png)
+![Dashboard Screenshot](./images/dashboard.png)
+![Studens Screenshot](./images/students.png)
+![Teachers Screenshot](./images/teachers.png)
+![Courses Screenshot](./images/courses.png)
 
 
 ---
