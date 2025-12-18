@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student RMS — Login</title>
+
+    <link rel="stylesheet" href="/assets/css/auth.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="page auth-page">
+      <div class="card auth-card">
+        <!-- LEFT -->
+        <div class="auth-left">
+          <div class="logo">
+            <img src="/images/logo.svg" alt="logo" />
+            <h1>Student RMS</h1>
+          </div>
+
+          <p class="muted">
+            Professional Student Record Management System — Admin Portal
+          </p>
+
+          <form id="loginForm" class="form">
+            <label>Email</label>
+            <input
+              type="email"
+              id="loginEmail"
+              placeholder="admin@demo.com"
+              required
+            />
+
+            <label>Password</label>
+            <input
+              type="password"
+              id="loginPassword"
+              placeholder="Enter password"
+              required
+            />
+
+            <div class="form-row">
+              <button class="btn" type="submit">Login</button>
+
+              <a class="btn ghost create-account" href="./pages/register.html">
+                Create account
+              </a>
+            </div>
+          </form>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="auth-right">
+          <div class="scene">
+            <div class="card-3d">
+              <div class="card-face face-front">
+                <h2>Welcome Back</h2>
+                <p>
+                  Manage students, teachers and analytics from one dashboard.
+                </p>
+              </div>
+
+              <div class="card-face face-back">
+                <h2>Secure</h2>
+                <p>Local demo with safe session storage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script  src="/JS/auth.js"></script>
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", loginUser);
+    </script>
+  </body>
+</html>

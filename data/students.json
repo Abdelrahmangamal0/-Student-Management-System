@@ -1,0 +1,4 @@
+[
+  {"id":1,"name":"Ahmed Ali","email":"ahmed@example.com","phone":"01000000001","gender":"Male","grade":"A"},
+  {"id":2,"name":"Mona Hassan","email":"mona@example.com","phone":"01000000002","gender":"Female","grade":"B"}
+]

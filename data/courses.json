@@ -1,0 +1,8 @@
+[
+  {"id":1,"title":"Cyber Security","category":"Cyber Security","image":"../images/cyberSecurity.webp","description":"Introduction to cybersecurity."},
+  {"id":2,"title":"Machine Learning","category":"Machine Learning","image":"../images/MachineLearning.webp","description":"Machine learning fundamentals."},
+  {"id":3,"title":"Data Structure","category":"Data Structure","image":"../images/dataStructure.webp","description":"Core data structures."},
+  {"id":4,"title":"Data Science","category":"Data Science","image":"../images/dataScience.webp","description":"Data science and analytics."},
+  {"id":5,"title":"Deep Learning","category":"Deep Learning","image":"../images/deepLearning.webp","description":"Deep learning and neural networks."},
+  {"id":6,"title":"Data Base","category":"Data Base","image":"../images/dataBase.webp","description":"Database design and management."}
+]

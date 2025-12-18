@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student RMS — Register</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/auth.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<main class="page auth-page">
+  <div class="card auth-card">
+
+    <!-- LEFT -->
+    <div class="auth-left">
+      <div class="logo">
+        <img src="../images/logo.svg" alt="logo">
+        <h1>Student RMS</h1>
+      </div>
+      <p class="muted">Create an admin account for the demo</p>
+      <!-- REGISTER FORM -->
+      <form id="regForm" class="form">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter full name"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Min 6 characters"
+            minlength="6"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm password"
+            required
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Register
+        </button>
+
+        <p class="auth-switch">
+          Already have an account?
+          <a href="../index.html">Sign In</a>
+        </p>
+
+      </form>
+    </div>
+
+    <div class="auth-right">
+      <div class="scene">
+        <div class="card-3d">
+          <div class="card-face face-front">
+            <h2>Join the Demo</h2>
+            <p>Create an admin and manage sample student data.</p>
+          </div>
+          <div class="card-face face-back">
+            <h2>Secure</h2>
+            <p>Demo authentication using local storage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="../JS/auth.js"></script>
+<script>
+  document
+    .getElementById("regForm")
+    .addEventListener("submit", registerUser);
+</script>
+
+</body>
+</html>
